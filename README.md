@@ -45,6 +45,7 @@ Determina el comportamiento del diseño.
 3. [Sumador]
 4. [Multiplexor]
 5. [ALU]
+6. [Multiplexor 2]
 
 ## Circuitos Combinacionales
 
@@ -59,11 +60,11 @@ Determina el comportamiento del diseño.
 
 El multiplexor (MUX) es un circuito combinacional que tiene varios canales de datos de entrada y solamente un canal de salida. Sólo un canal de la entrada pasará a la salida y este será el que haya sido escogido mediante unas señales de control.
 
-![vhdl](/Programas/Multiplexor/img/VHDL.png)
+![vhdl](/programas/4.Multiplexor/img/VHDL.png)
 
 ### Diagramas
 
-![vhdl](/Programas/Multiplexor/img/MUX.png)
+![vhdl](/programas/4.Multiplexor/img/MUX.png)
 
 ### Codigo
 
@@ -128,3 +129,9 @@ Entradas y resultados con 8 bits. Selección de operación con 3 bits.
 
 ## Alias
 Construcción Conocida, son como objetos
+
+## Multiplexor 2
+
+El multiplexor (MUX) es un circuito combinacional que tiene varios canales de datos de entrada y solamente un canal de salida. Sólo un canal de la entrada pasará a la salida y este será el que haya sido escogido mediante unas señales de control.
+
+![vhdl](/Programas/6.Multiplexor2/img/VHDL.png)
