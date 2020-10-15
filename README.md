@@ -134,4 +134,4 @@ Construcción Conocida, son como objetos
 
 El multiplexor (MUX) es un circuito combinacional que tiene varios canales de datos de entrada y solamente un canal de salida. Sólo un canal de la entrada pasará a la salida y este será el que haya sido escogido mediante unas señales de control.
 
-![vhdl](/Programas/6.Multiplexor2/img/VHDL.png)
+![vhdl](/programas/6.Multiplexor2/img/VHDL.png)
