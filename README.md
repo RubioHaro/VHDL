@@ -134,4 +134,37 @@ Construcción Conocida, son como objetos
 
 El multiplexor (MUX) es un circuito combinacional que tiene varios canales de datos de entrada y solamente un canal de salida. Sólo un canal de la entrada pasará a la salida y este será el que haya sido escogido mediante unas señales de control.
 
-![vhdl](/Programas/6.Multiplexor2/img/VHDL.png)
+![vhdl](/programas/6.Multiplexor2/img/VHDL.png)
+
+## Comparador 
+
+Los comparadores son circuitos combinacionales capaces de comparar dos
+combinaciones presentes en sus entradas indicando si son iguales o diferentes;
+en caso de ser diferentes, indican cuál de las dos es mayor. Suelen tener tres
+salidas que indican el resultado de la comparación: A=B, A < B y A > B.
+
+![vhdl](/programas/7.Comparador/img/VHDL.png)
+
+### Código
+
+- [Funcional](/programas/7.Comparador/Funcional/Comparador.vhd)
+- [Flujo de datos](/programas/7.Comparador/FlujoDatos/Comparador.vhd)
+
+### Salida
+El resultado fue el mismo para las dos arquitecutras en las simulaciones. Esto se esperaba.
+
+                                 C22V10
+                 __________________________________________
+           b(3) =| 1|                                  |24|* not used       
+           b(2) =| 2|                                  |23|* not used       
+           b(1) =| 3|                                  |22|* not used       
+           b(0) =| 4|                                  |21|* not used       
+           a(3) =| 5|                                  |20|* not used       
+           a(2) =| 6|                                  |19|* not used       
+           a(1) =| 7|                                  |18|* not used       
+           a(0) =| 8|                                  |17|* not used       
+       not used *| 9|                                  |16|* not used       
+       not used *|10|                                  |15|* not used       
+       not used *|11|                                  |14|= c              
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
