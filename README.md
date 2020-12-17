@@ -46,6 +46,15 @@ Determina el comportamiento del diseño.
 4. [Multiplexor]
 5. [ALU]
 6. [Multiplexor 2]
+7. [Comparador]
+8. [QuadraFlipFlop]
+9. [Registros]
+10. [Registro Universal]
+11. [Contadores]
+12. [Contador Codigo Gray]
+13. [Contador: Mostrando Nombre]
+14. [Contador: Mostrando Boleta]
+15. [Detector de Secuencia]
 
 ## Circuitos Combinacionales
 
