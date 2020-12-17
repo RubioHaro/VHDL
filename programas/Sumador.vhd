@@ -4,7 +4,7 @@ USE IEEE.std_logic_arith.ALL;
 ENTITY adder IS
     PORT (
         a, b : IN signed (3 DOWNTO 0);
-        sum : OUT signed (3 DOWNTO 0);
+        sum : OUT signed (3 DOWNTO 0)
     );
 END adder;
 ----
