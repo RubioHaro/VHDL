@@ -1,0 +1,4 @@
+v 3
+file . "ContadorGray.vhd" "20201203091924.000" "20201203032057.020":
+  entity contadorgray at 1( 0) + 0 on 11;
+  architecture arq_contadorgray of contadorgray at 11( 225) + 0 on 12;

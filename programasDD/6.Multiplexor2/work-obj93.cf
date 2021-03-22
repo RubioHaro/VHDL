@@ -1,0 +1,7 @@
+v 3
+file . "TB_Multiplexor.vhd" "20201014195006.000" "20201014145007.757":
+  entity testbench at 2( 26) + 0 on 19;
+  architecture tb of testbench at 9( 124) + 0 on 20;
+file . "Multiplexor.vhd" "20201014193758.000" "20201014145007.757":
+  entity mux at 1( 0) + 0 on 17;
+  architecture example of mux at 11( 275) + 0 on 18;

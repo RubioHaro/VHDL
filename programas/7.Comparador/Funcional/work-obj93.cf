@@ -1,4 +1,0 @@
-v 3
-file . "Comparador.vhd" "20201016005014.000" "20201016012448.047":
-  entity comp at 1( 0) + 0 on 13;
-  architecture example of comp at 11( 216) + 0 on 14;

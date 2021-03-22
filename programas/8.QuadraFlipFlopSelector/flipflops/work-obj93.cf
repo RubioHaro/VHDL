@@ -1,4 +1,0 @@
-v 3
-file . "SRFF.vhd" "20201029075644.000" "20201029015646.831":
-  entity flipflopsr at 2( 9) + 0 on 13;
-  architecture arq_sr of flipflopsr at 12( 234) + 0 on 14;
